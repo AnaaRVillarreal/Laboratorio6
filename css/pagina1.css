@@ -37,3 +37,40 @@ footer {
 .navbar-centered .navbar-collapse {
     justify-content: center;
 }
+.img-size {
+    width: 400px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.my-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.p11 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    padding: 0 20px;
+}
+
+.p12 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    padding: 0 20px;
+    text-decoration-color: gray;
+}
+
+.table{
+    text-align: center;
+    padding: 0 20px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+}
