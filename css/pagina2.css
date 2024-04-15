@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.navbar-custom .container-fluid.navbar-center {
+    display: flex;
+    justify-content: center;
+}  
+.navbar-custom {
+    background-color: #ffecd1;
+}
+
+.navbar-custom .navbar-brand {
+    color: #001524;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 2rem;
+}
+.navbar-centered .navbar-collapse {
+    justify-content: center;
+}
+
+.text-p2 {
+    text-align: justify;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    padding: 0 30px;
+}
+
